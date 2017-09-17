@@ -1,13 +1,7 @@
 <?php
 session_start();
 include ('dbcon.php');
-
 ?>
-
-
-
-
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -17,18 +11,13 @@ include ('dbcon.php');
 <meta name="viewport" content="width=device-width", initial-scale=1 />
 <title>Indian Online shopping Store</title>
 <link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+<link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style12.css" />
 <link rel="stylesheet" href="css/style17.css" />
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-
-
-
- 
-
 </head>
 
-<body><?php
-?>
+<body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -40,7 +29,7 @@ include ('dbcon.php');
             <span class="icon-bar"></span>
           </button><a class="navbar-brand" href="index.php"><span style="color:#099">STORE<span style="color:#FFFFFF">BUCK.in</a>
         </div>
-    
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-collapse-3">
           <ul class="nav navbar-nav navbar-right">
@@ -49,13 +38,13 @@ include ('dbcon.php');
             <li>
 			<?php
 			if(!isset($_SESSION['']))
-			
+
 			{
-				
+
            echo "<a href='Login.php'><span class='glyphicon glyphicon-log-in'></span> Log In</a>";
-			
+
 			} else
-			
+
 			{
 			echo "<a href='logout.php'><span class='glyphicon glyphicon-log-in'></span> Log out</a>"	;
 			}
@@ -76,17 +65,17 @@ include ('dbcon.php');
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
     </nav><!-- /.navbar -->
-    
-    
+
+
     <style>
   .carousel-inner > .item > img,
-          
+
   .carousel-inner > .item > a > img {
-    
+
         height: auto;
-        
+
         width: 100%;
-        
+
         line-height: 1;
   }
   </style>
@@ -114,7 +103,7 @@ include ('dbcon.php');
       <div class="item">
        <a href="#"><img src="img/ban2.jpg" width="200" height="200" ></a>
       </div>
-    
+
       <div class="item">
        <a href="#"><img src="img/ban3.jpg" width="200" height="200" ></a>
       </div>
@@ -122,7 +111,7 @@ include ('dbcon.php');
       <div class="item">
         <a href="#"><img src="img/ban4.jpg" width="200" height="200"></a>
       </div>
-      
+
       <div class="item">
         <a href="#"><img src="img/ban5.jpg" width="200" height="200"></a>
       </div>
@@ -142,68 +131,64 @@ include ('dbcon.php');
 
 <section class="work-info">
     <div class="container">
-        <h1 class="text-center">POPULAR CATEGORIES</h1>
-          <hr>
-        <div class="row">
-         
-            <div class=" col-md-6 col-sm-6 col-sm-12">
+        <p class="text-center sb-heading">POPULAR CATEGORIES</h1>
+          <div class="row">
+           <div class=" col-md-6 col-sm-6 col-sm-12">
                 <div class="work-item">
                     <a href="#">
                     <img src="img/men.jpg" class="img-responsive">
-                    </a>									
+                    </a>
                 </div>
             </div>
-            
+
             <div class="col-md-6 col-sm-6 col-sm-12 ">
                 <div class="work-item">
                     <a href="#">
                     <img src="img/clothing-store1.jpg" class="img-responsive">
-                    </a>                    
+                    </a>
                 </div>
             </div>
-            
+
             </div><!--end of row-->
             <div class="row">
             <div class="col-md-6 col-sm-6 col-sm-12 ">
                 <div class="work-item">
                     <a href="#">
                     <img src="img/beauty.jpg" class="img-responsive">
-                    </a>                    
+                    </a>
                 </div>
             </div>
-            
+
             <div class="col-md-6 col-sm-6 col-sm-12">
                 <div class="work-item">
                     <a href="#">
                     <img src="img/shoes.jpg" class="img-responsive">
-                    </a>                   
+                    </a>
                 </div>
             </div>
-            
-            
-              <div class="col-md-12 text-center"><h3><a href="categories.php">see all categories >></a></h3></div>      
-        </div><!--end of row-->
-        
+           </div><!--end of row-->
+
+            <div class="row">
+              <div class="col-md-12 text-center"><a class="sb-link" href="categories.php">see all categories >></a></div>
+           </div>
+
     </div><!--end of container-->
 </section>
  <!--end of work section-->
 
 
-
-
-
 <!--Item slider text-->
+<section class="new-collection">
 <div class="container">
   <div class="row" id="slider-text">
-    <div class="col-md-6" >
-      <h3>NEW COLLECTION</h3>
+    <div class="col-md-12 col-sm-12 col-xs-12" >
+      <p class="text-center sb-sub-heading">NEW COLLECTION</h3>
     </div>
   </div>
 </div>
-<br />
+
 <!-- Item slider-->
 <div class="container-fluid">
-
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12">
       <div class="carousel carousel-showmanymoveone slide" id="itemslider">
@@ -256,15 +241,7 @@ include ('dbcon.php');
               <h6 class="text-center"><i class="fa fa-inr"></i> 400.00</h6>
             </div>
           </div>
-          
-                    <div class="item">
-            <div class="col-xs-12 col-sm-6 col-md-2">
-              <a href="#"><img src="img/ms-total_security_productpage_1.png.pagespeed.ce.nf4Ur0u26_.png" class="img-responsive center-block"></a>
-              <h5 class="text-center">QUICK HEAL TOTAL SECURITY</h5>
-              <h6 class="text-center"><i class="fa fa-inr"></i> 400.00</h6>
-            </div>
-          </div>
-          
+
                     <div class="item">
             <div class="col-xs-12 col-sm-6 col-md-2">
               <a href="#"><img src="img/ms-total_security_productpage_1.png.pagespeed.ce.nf4Ur0u26_.png" class="img-responsive center-block"></a>
@@ -273,11 +250,14 @@ include ('dbcon.php');
             </div>
           </div>
 
-
-
-
-
-        </div>
+                    <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="img/ms-total_security_productpage_1.png.pagespeed.ce.nf4Ur0u26_.png" class="img-responsive center-block"></a>
+              <h5 class="text-center">QUICK HEAL TOTAL SECURITY</h5>
+              <h6 class="text-center"><i class="fa fa-inr"></i> 400.00</h6>
+            </div>
+          </div>
+      </div>
 
         <div id="slider-control">
         <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="https://s12.postimg.org/uj3ffq90d/arrow_left.png" alt="Left" class="img-responsive"></a>
@@ -288,47 +268,25 @@ include ('dbcon.php');
   </div>
 </div>
 <!-- Item slider end-->
+</section>
 
-
-
-<br />
-<br /><br /><br />
-
-
-
-
-
-
-<header class="business-header">
+<section>
+<div class="business-header">
         <div class="container">
             <div class="row">
-            
-                <div class="col-lg-12  text-center">
-                    <br><br><br><br><br><br>
-                    <hr>
-                    <h1 class="tagline">Store For What you Want</h1>
-                    <hr>
-                                        <br>
+                <div class="col-lg-12 col-md-12 text-center">
+                    <h1 class="sb-heading">Store For What you Want</h1>
                     <a class="btn btn-success btn-md" href="#">Explore Now »</a>
                 </div>
             </div>
         </div>
-    </header>
+</div>
+</section>
 
-
-
-<br /><br />
-
+<section>
 <div class="container">
-    <div class="row text-center">
-		<h2>budget store </h2>
-        
-	</div>
-    <br />
-    <br />
-    
-    
-<div class="container">
+  <p class="text-center sb-sub-heading">Budget Store </p>
+
   <div class="row">
   <div class="col-xs-6 col-md-3">
     <a href="#" class="thumbnail">
@@ -352,29 +310,19 @@ include ('dbcon.php');
   </div>
 </div>
 </div><!--end of container-->
-
-    
 </div>
-
-<br />
-
-
-
-
-
-
-
+</section>
 
  <div class="jumbotron text-center">
   <h2>Newsletter</h2>
-  <br /> <p>Enter your Email and keep up with the latest offers from Storebuck.</p>
+  <p>Enter your Email and keep up with the latest offers from Storebuck.</p>
   <form action="" class="form-inline">
     <input type="email" name="email" class="form-control" size="50" placeholder="Email" required>
     <button type="button" class="btn btn-primary">Subscribe</button>
   </form>
-</div> 
-  
-  
+</div>
+
+
   <!-- footer-top -->
 	<div class="w3agile-ftr-top">
 		<div class="container">
@@ -382,43 +330,40 @@ include ('dbcon.php');
 				<div class="col-md-4 ftr-top-grids">
 					<div class="ftr-top-left">
 						<i class="fa fa-truck" aria-hidden="true"></i>
-					</div> 
+					</div>
 					<div class="ftr-top-right">
 						<h4>FREE DELIVERY</h4>
 						<p>ON YOUR ORDER COST RS.500/- AND ABOVE </p>
-					</div> 
+					</div>
 					<div class="clearfix"> </div>
-				</div> 
+				</div>
 				<div class="col-md-4 ftr-top-grids">
 					<div class="ftr-top-left">
 					  <i class="fa fa-refresh" aria-hidden="true"></i>
-					</div> 
+					</div>
 					<div class="ftr-top-right">
 						<h4>30 DAYS REPLACEMENT</h4>
 						<p>EASY RETURN* </p>
-					</div> 
+					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="col-md-4 ftr-top-grids">
 					<div class="ftr-top-left">
 						<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-					</div> 
+					</div>
 					<div class="ftr-top-right">
-						<h4>GOOD QUALITY</h4> 
+						<h4>GOOD QUALITY</h4>
 						<p> PROVIDE QUALITY GOODS AND GENUINE PRODUCTS</p>
 					</div>
 					<div class="clearfix"> </div>
-				</div> 
+				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	<!-- //footer-top --> 
+	<!-- //footer-top -->
 
 
-  
-
-<link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!--footer start from here-->
 <footer>
   <div class="container">
@@ -429,7 +374,7 @@ include ('dbcon.php');
         <p><i class="fa fa-map-pin"></i> Hazratgunj Lucknow, INDIA</p>
         <p><i class="fa fa-phone"></i> Phone (India) :+91-98-97-96-5332</p>
         <p><i class="fa fa-envelope"></i> E-mail : Yadav.vipin642@gmail.com</p>
-        
+
       </div>
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
         <h6 class="heading7">My Account</h6>
@@ -454,21 +399,13 @@ include ('dbcon.php');
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
       <h6>Keep in Touch</h6>
         <div class="social-icons">
-                                
-                                	<ul class="nomargin">
-                                    
+            <ul class="nomargin">
               <a href="https://www.facebook.com/storebuck/" target="_blank" class="icon fa fa-facebook-f"></a>
 	            <a href="https://www.instagram.com/storebuck.in/" target="_blank" class="icon fa fa-instagram"></a>
-                 
-                    
-                    <a href="" target="_blank" class="icon fa fa-pinterest"></a>
-                    <a href="" target="_blank" class="icon fa fa-youtube-play"></a>
-                    
-                
-                                </div>
-                                
-                                
-</footer>
+              <a href="" target="_blank" class="icon fa fa-pinterest"></a>
+              <a href="" target="_blank" class="icon fa fa-youtube-play"></a>
+        </div>
+      </footer>
 <!--footer start from here-->
 
 <div class="copyright">
@@ -490,17 +427,15 @@ include ('dbcon.php');
 </div>
 
 <!-- The scroll to top feature -->
-    
+
 <div class="scroll-top-wrapper ">
   <span class="scroll-top-inner">
     <i class="fa fa-2x fa-arrow-circle-up"></i>
   </span>
 </div>
 
-
 <script type="text/javascript" src="js/jquery.js.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-
 </body>
 </html>

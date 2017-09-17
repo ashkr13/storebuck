@@ -18,8 +18,8 @@
 .btn.btn-outline { background-color: transparent; }
 
 @media screen and (max-width: 767px) {
-    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
-    
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; }
+
     .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
     .navbar .nav-collapse .navbar-form { margin: 0; }
     .nav-collapse>li { float: none; }
@@ -32,7 +32,7 @@ a.mobile{
 	background-color:#099;
 	text-align:center;
 	padding:2px;
-	
+
 }
 
 .main {
@@ -64,11 +64,6 @@ a.mobile{
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  h3 {
-    text-align: center;
-    line-height: 300%;
-  }
-
 
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
@@ -92,15 +87,15 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
      -moz-transform: scale(1.1);
      -o-transform: scale(1.1);
  }
- 
- 
 
- 
+
+
+
  .icon-ul { list-style-type:none; margin:0px; padding:0px;}
  .icon-ul li { line-height:75px; width:100%; float:left;}
  .icon { float:left; margin-right:5px;}
- 
- 
+
+
  .copyright { min-height:40px; background-color:#000000;}
  .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
  .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
@@ -110,9 +105,9 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  .bottom_ul li { float:left; line-height:40px;}
  .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
  .bottom_ul li a { color:#FFF;  font-size:12px;}
- 
- /* 
-    Only Needed in Multi-Coloured Variation 
+
+ /*
+    Only Needed in Multi-Coloured Variation
                                                */
 			.social-fb:hover {
 				color: #3B5998;
@@ -127,14 +122,9 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
 				color: #f39c12;
 			}
 			.nomargin { margin:0px; padding:0px;}
-			
-			
-			
-			
-			
 
 .carousel-showmanymoveone .carousel-control {
-  width: 4%;
+  width: 3%;
   background-image: none;
 }
 .carousel-showmanymoveone .carousel-control.left {
@@ -240,11 +230,11 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
 }
 
 .section-content{
-  text-align: center; 
+  text-align: center;
 
 }
 #contact{
-    
+
   font-family: 'Teko', sans-serif;
   padding-top: 60px;
   width: 100%;
@@ -252,7 +242,7 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
   background: #3a6186; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #fff;    
+    color : #fff;
 }
 .contact-section{
   padding-top: 40px;
@@ -687,7 +677,7 @@ textarea.form-control {
 
 body
 {
-    
+
     padding-top:50px;
 }
 .form-signin {
@@ -705,9 +695,9 @@ body
 }
 .form-control:focus
 {
-   
+
     border-color: rgb(40, 94, 142);
-    
+
 }
 .panel-default {
 opacity: 0.8;
@@ -766,7 +756,7 @@ Image placeholders: placemi.com
 
 
 .mt-100 {
-    margin-top: 100px; 
+    margin-top: 100px;
 }
 .mb-100 {
     margin-bottom: 100px;
@@ -824,7 +814,7 @@ Image placeholders: placemi.com
 }
 .input-group-btn:last-child>.btn {
     z-index: 2;
-    margin-left: -18px;   
+    margin-left: -18px;
     border-radius: 20px;
 }
 
@@ -838,26 +828,15 @@ Image placeholders: placemi.com
     background-color: #222;
     box-shadow: 20px 20px 40px #887;
 }
+/*-- footer-top --*/
 
-
-
-
-
-
-
-/*-- footer-top --*/ 
-p {
-    font-size: 1em;
-    color: #999;
-    line-height: 1.8em;
-}
 .w3agile-ftr-top {
     padding: 4em 0;
-    
-	background-size: cover; 
+
+	background-size: cover;
 }
 .ftr-top-left {
-    float: left; 
+    float: left;
 }
 .ftr-top-right{
     float: right;
@@ -865,7 +844,7 @@ p {
 }
 .ftr-top-left i.fa {
     font-size: 2.5em;
-    border: 1px solid; 
+    border: 1px solid;
     color: #176aff;
     width: 70px;
     height: 70px;
@@ -892,12 +871,12 @@ p {
     font-size: 1.4em;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0.5em;
-   
+
 }
 .ftr-top-grids:hover i.fa {
-    
+
 }
-/*-- //footer-top --*/ 
+/*-- //footer-top --*/
 
 
 
@@ -963,7 +942,7 @@ span.round-tab i{
 .wizard li.active span.round-tab {
     background: #fff;
     border: 2px solid #5bc0de;
-    
+
 }
 .wizard li.active span.round-tab i{
     color: #5bc0de;
@@ -1055,7 +1034,7 @@ span.round-tab:hover {
 
 *
 {
- 
+
     transition: all .5s;
 
 }
@@ -1079,9 +1058,9 @@ hr{
 .work-info{
    padding:50px 0px;
    background-color: #fff;
-    
+
 }
-.work-item a 
+.work-item a
 {
     display: block;
     overflow: hidden;
@@ -1092,21 +1071,20 @@ hr{
 }
 .work-item>a>img:hover{
     transform: scale(1.2,1.2);
-       
+
 }
 
 
 
 
 .business-header {
-    height: 500px;
+
 	background-image:
 	url(file:///C|/xampp/htdocs/storebuck/img/post7-big.jpg);
-	
+
      center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-
