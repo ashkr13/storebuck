@@ -92,6 +92,7 @@ include ('dbcon.php');
 
     </ol>
 
+
     <!-- Wrapper for slides -->
 
     <div class="carousel-inner" role="listbox">
@@ -128,8 +129,10 @@ include ('dbcon.php');
   </div>
 </div>
 
+<!-- cards-->
 
 <section class="work-info">
+<div class="card">
     <div class="container">
         <p class="text-center sb-heading">POPULAR CATEGORIES</h1>
           <div class="row">
@@ -171,14 +174,16 @@ include ('dbcon.php');
             <div class="row">
               <div class="col-md-12 text-center"><a class="sb-link" href="categories.php">see all categories >></a></div>
            </div>
-
+         </div> 
     </div><!--end of container-->
 </section>
+
  <!--end of work section-->
 
 
 <!--Item slider text-->
 <section class="new-collection">
+<div class="card">
 <div class="container">
   <div class="row" id="slider-text">
     <div class="col-md-12 col-sm-12 col-xs-12" >
@@ -267,10 +272,12 @@ include ('dbcon.php');
     </div>
   </div>
 </div>
+</div>
 <!-- Item slider end-->
 </section>
 
 <section>
+<div class="card">
 <div class="business-header">
         <div class="container">
             <div class="row">
@@ -281,9 +288,9 @@ include ('dbcon.php');
             </div>
         </div>
 </div>
-</section>
 
-<section>
+
+
 <div class="container">
   <p class="text-center sb-sub-heading">Budget Store </p>
 
@@ -311,6 +318,7 @@ include ('dbcon.php');
 </div>
 </div><!--end of container-->
 </div>
+
 </section>
 
  <div class="jumbotron text-center">
